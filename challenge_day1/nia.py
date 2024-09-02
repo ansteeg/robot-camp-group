@@ -1,0 +1,2 @@
+def nia():
+    return "Nia"
