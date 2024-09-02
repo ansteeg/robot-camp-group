@@ -1,0 +1,1 @@
+print("Josy, Marysia, Alva, Davide, Adam, David")
