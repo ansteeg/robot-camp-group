@@ -16,16 +16,14 @@ def act1():
         str: The story about the Bloom magazine board meeting
     """
     return """Act I – The Meeting Meltdown
-The qaurterly Bloom magazin meeting began 
-with high hopes and stale croissants. Margaret, 
-Chair of Snacks and Vibes, was passionately defending 
-her decision to spend half the budget on glitter pens 
-when Harold, Treasurer of Paperclips, slammed the table 
+The quarterly Bloom magazine meeting began 
+with high hopes and stale croissants. Margaret, Chair of Snacks and Vibes, 
+was passionately defending her decision to spend half the budget on 
+glitter pens when Harold, Treasurer of Paperclips, slammed the table 
 and declared, "This is financial terrorism!" Before Margaret 
-could launch into a speech about the power of stationery in 
-shaping artistic destiny, the door creaked open and in stormed 
-Greg — self-proclaimed "Bloom hater" and man who once tried to 
-sue a sunflower for copyright infringement."""
+could launch into a speech about the power of stationery in shaping artistic destiny, 
+the door creaked open and in stormed Greg — self-proclaimed 
+“Bloom hater” and man who once tried to sue a sunflower for copyright infringement."""
 
 
 if __name__ == "__main__":
