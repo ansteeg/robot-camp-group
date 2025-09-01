@@ -1,2 +1,2 @@
-def yvan():
+cldef yvan():
     print("Yvan")
