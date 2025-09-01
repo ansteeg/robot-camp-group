@@ -16,7 +16,7 @@ def act1():
         str: The story about the Bloom magazine board meeting
     """
     return """Act I – The Meeting Meltdown
-The qaurterly Bloom magazin meeting began 
+The quarterly Bloom magazine meeting began 
 with high hopes and stale croissants. Margaret, 
 Chair of Snacks and Vibes, was passionately defending 
 her decision to spend half the budget on glitter pens 
