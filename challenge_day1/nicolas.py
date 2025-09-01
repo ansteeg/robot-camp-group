@@ -1,0 +1,2 @@
+def nicolas():
+    print("Nicolas")
