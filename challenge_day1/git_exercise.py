@@ -9,7 +9,7 @@ def print_team_story():
     # Team header
     print("This is Team " + TEAM_NAME + ". We are:")
     print("-", bennis_file.name())
-    print("-", Lolo_file.get_my_name())
+    print("-", Lolo_file.name())
     print("-", marfa_file.name())
     print("-", marie_file.name())
     print("-", paz_file.name())
