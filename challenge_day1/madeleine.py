@@ -43,7 +43,7 @@ def act3_madeleine():
     Returns:
         str: The story about the Bloom magazine board meeting.
     """
-    return """ust when the staff thought the drama was over, 
+    return ""just when the staff thought the drama was over, 
     the office printer whirred ominously and spat out fifty copies 
     of an unsigned manifesto titled "Bloom Forever: A Manifesto for 
     a Magazine That Refuses to Fold."No one admitted to writing it, 
