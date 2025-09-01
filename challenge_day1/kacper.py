@@ -22,5 +22,5 @@ def act3_kacper():
     show in the break room. Using coffee cups and sticky notes, they reenacted the rise and fall of Bloom magazine
     in interpretive slow motion. The puppets all mysteriously exploded in Act III, which everyone agreed was “a bit
     on the nose” but also “unexpectedly profound.” """
-    
-  return act3
+  
+    return act3
