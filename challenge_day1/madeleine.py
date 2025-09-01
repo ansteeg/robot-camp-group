@@ -8,15 +8,15 @@ def get_name():
     return "Madeleine"
 
 
-def get_story():
+def act1():
     """
-    Returns a story about a Bloom magazine board meeting.
+    Returns Act I of the story - The Meeting Meltdown.
     
     Returns:
-        str: The story "Act I – The Meeting Meltdown"
+        str: The story about the Bloom magazine board meeting
     """
     return """Act I – The Meeting Meltdown
-The quarterly Bloom magazine board meeting began 
+The qaurterly Bloom magazin meeting began 
 with high hopes and stale croissants. Margaret, 
 Chair of Snacks and Vibes, was passionately defending 
 her decision to spend half the budget on glitter pens 
@@ -33,5 +33,5 @@ if __name__ == "__main__":
     name = get_name()
     print(f"My name is: {name}")
     
-    story = get_story()
+    story = act1()
     print(f"\nMy story:\n{story}")
