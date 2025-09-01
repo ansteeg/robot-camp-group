@@ -16,5 +16,6 @@ print(member_name())
 print("The story:")
 for n in range(1, 4): 
     for person in ["madeleine", "sophie", "ivar", "kacper", "chris", "todd"]:
-        var_name = f"act{n}_{person}"
-        print(globals()[var_name]) 
+        func_name = f"act{n}_{person}"
+        func = globals()[func_name]
+        print(func())
