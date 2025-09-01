@@ -1,0 +1,4 @@
+def diogo():
+    print("Diogo")
+
+
