@@ -5,4 +5,3 @@ def introduce_team():
     print("This is Team Brabus. We are:")
     print(lotte_who())
     print(asjfaaq_who())
-    print(sam_who())
