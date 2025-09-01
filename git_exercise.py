@@ -1,6 +1,6 @@
 from lotte_jaspers import who_am_i as lotte_who
 from Asjfaaq import who_am_i as asjfaaq_who
-from Juriaan_Rösingh.py
+from Juriaan_Rösingh.py import who_am_i as juriaan_who
 
 def introduce_team():
     print("This is Team Brabus. We are:")
