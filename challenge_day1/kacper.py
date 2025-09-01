@@ -2,18 +2,18 @@ def name():
   return("kacper")
 
 def act1_kacper():
-  act1 = """" Ladies, gentlemen, and glitter enthusiasts," Greg sneered, "I have come to expose this fraudulent operation." 
+  act1 = """ Ladies, gentlemen, and glitter enthusiasts," Greg sneered, "I have come to expose this fraudulent operation." 
   He slammed his binder on the table, sending more crumbs flying. "Bloom magazine is nothing but overpriced doodles 
-  wrapped in pretentious adjectives. And I, as a concerned citizen, demand the immediate disbanding of this… paper cult """"
+  wrapped in pretentious adjectives. And I, as a concerned citizen, demand the immediate disbanding of this… paper cult """
   
   return act1
 
 def act2_kacper():
-  act2 = """" Greg, not one to be silenced by facts or ISO certifications, reached into his overcoat like a magician
+  act2 = """ Greg, not one to be silenced by facts or ISO certifications, reached into his overcoat like a magician
   revealing his final trick. From its inner pocket, he withdrew a crumpled piece of paper, unfolded it with the dramatic
   tension of a courtroom reveal, and held it aloft. “This!” he cried. “This is the truth!” The paper revealed a stick figure
   with tears streaming down its face, standing beneath the crudely scrawled words: “Bloom is doom.” He stared around the room,
-  awaiting stunned silence and applause. """"
+  awaiting stunned silence and applause. """
 
   return act2
 
