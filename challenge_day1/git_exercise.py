@@ -15,8 +15,8 @@ def group():
     yvan()
     nicolas()
     vasil()
-    
 
+group()
 
 
 
