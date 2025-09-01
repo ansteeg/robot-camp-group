@@ -1,7 +1,7 @@
 def call_name():
     print("Ivar")
 
-def act1_ivar:
+def act1_ivar():
     act1 = """ Before she could launch into her ten-minute PowerPoint on "The Socioeconomic Importance of Glitter," 
 the door creaked open. In stormed Greg, the infamous Bloom hater, known in town for once trying to 
 sue a sunflower for copyright infringement. His scarf was dramatically long, his expression permanently 
@@ -27,3 +27,4 @@ def act3_ivar():
     poet while trapped between two balloon flamingos, and the transcript consisted entirely of “honk squeak thud.”
     """
     return act3
+
