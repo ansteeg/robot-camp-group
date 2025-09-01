@@ -6,5 +6,5 @@ Margret gasped so dramatikally she inhailed an entier croisant crumb sideways, w
 “Sir, I’ll have you kno our margens are ISO certifide!” Harrold bellowed, his glassis fogging with rage. 
 Greg, not to be outdune, pulled out a crumpled peece of papper on wich he had drawn a stik figgur crying under the words ‘Bloom is doom’."""
 
-def ActII():
+def act2():
     return act2
