@@ -1,6 +1,13 @@
 def name():
   return("kacper")
 
+def act1_kacper():
+  act1 = """" Ladies, gentlemen, and glitter enthusiasts," Greg sneered, "I have come to expose this fraudulent operation." 
+He slammed his binder on the table, sending more crumbs flying. "Bloom magazine is nothing but overpriced doodles 
+wrapped in pretentious adjectives. And I, as a concerned citizen, demand the immediate disbanding of this… paper cult """"
+  
+  return act1
+
 def act3():
     """
     Returns Act III of the story - The Ridiculous Resolution.
