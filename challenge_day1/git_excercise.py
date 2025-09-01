@@ -12,3 +12,5 @@ call_name()
 print(name())
 print(call_name1())
 print(member_name())
+
+print("The story: /n")
