@@ -38,5 +38,5 @@ def print_team_story():
     print(paz_file.act3())
 
 if __name__ == "__main__":
-    TEAM_NAME = "YourTeamNameHere"
+    TEAM_NAME = "Pinky Robots"
     print_team_story()
