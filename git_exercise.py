@@ -1,5 +1,5 @@
 from lotte_jaspers.py import who_am_i as lotte_who
-from member_bob import who_am_i as asjfaaq_who
+from Asjfaaq.py import who_am_i as asjfaaq_who
 
 def introduce_team():
     print("This is Team Brabus. We are:")
