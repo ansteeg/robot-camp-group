@@ -1,9 +1,9 @@
-from Ivar import call_name
-from madeleine import get_name, act1
-from Chris import call_name1
-from sophie import bestname
-from kacper import name, act3
-from Todd import member_name, act2
+from Ivar import call_name, act1_ivar, act2_ivar, act3_ivar
+from madeleine import get_name, act1_madeleine, act2_madeleine, act3_madeleine
+from Chris import call_name1, act1_chris, act2_chris, act3_chris
+from sophie import bestname, act1_chris, act2_chris, act3_chris
+from kacper import name, act1_kacper, act2_kacper, act3_kacper
+from Todd import member_name, act1_todd, act2_todd, act3_todd
 
 print(f"This is Team zin er in. We are:")
 print(get_name())
@@ -14,6 +14,7 @@ print(call_name1())
 print(member_name())
 
 print("The story:")
-print(act1())
-print(act2())
-print(act3())
+for n in range(1, 4): 
+    for person in ["madeleine", "sophie", "ivar", "kacper", "chris", "todd"]:
+        var_name = f"act{n}_{person}"
+        print(globals()[var_name]) 

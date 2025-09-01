@@ -3,24 +3,24 @@ def name():
 
 def act1_kacper():
   act1 = """" Ladies, gentlemen, and glitter enthusiasts," Greg sneered, "I have come to expose this fraudulent operation." 
-He slammed his binder on the table, sending more crumbs flying. "Bloom magazine is nothing but overpriced doodles 
-wrapped in pretentious adjectives. And I, as a concerned citizen, demand the immediate disbanding of this… paper cult """"
+  He slammed his binder on the table, sending more crumbs flying. "Bloom magazine is nothing but overpriced doodles 
+  wrapped in pretentious adjectives. And I, as a concerned citizen, demand the immediate disbanding of this… paper cult """"
   
   return act1
 
-def act3():
-    """
-    Returns Act III of the story - The Ridiculous Resolution.
+def act2_kacper():
+  act2 = """" Greg, not one to be silenced by facts or ISO certifications, reached into his overcoat like a magician
+  revealing his final trick. From its inner pocket, he withdrew a crumpled piece of paper, unfolded it with the dramatic
+  tension of a courtroom reveal, and held it aloft. “This!” he cried. “This is the truth!” The paper revealed a stick figure
+  with tears streaming down its face, standing beneath the crudely scrawled words: “Bloom is doom.” He stared around the room,
+  awaiting stunned silence and applause. """"
 
-    Returns:
-        str: The conclusion of the Bloom magazine drama
-    """
-    act3 = """Act III – The Ridiculous Resolution
-Just as it seemed Bloom magazine would collapse under the weight of pastry crumbs 
-and insults, Margaret stood, glitter pen in hand like a sword, and proposed a duel: 
-One haiku each. Winner takes Bloom. Harold scribbled furiously about fiscal responsibility, 
-Greg wrote "Bloom bad" seventeen times and called it minimalist genius, and Margaret 
-produced an ode to croissants that accidentally made everyone cry. 
-In the end nobody won, the meeting notes were illegible, and Bloom magazine survived 
-another day simply because the janitor locked the lights and went home."""
-    return act3
+  return act2
+
+def act3_kacper():
+    act3 = """ As deadlines loomed, the interns revolted, not with protest signs, but by staging a dramatic puppet
+    show in the break room. Using coffee cups and sticky notes, they reenacted the rise and fall of Bloom magazine
+    in interpretive slow motion. The puppets all mysteriously exploded in Act III, which everyone agreed was “a bit
+    on the nose” but also “unexpectedly profound.” """
+    
+  return act3
