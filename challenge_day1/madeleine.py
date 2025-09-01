@@ -27,7 +27,6 @@ shaping artistic destiny, the door creaked open and in stormed
 Greg — self-proclaimed "Bloom hater" and man who once tried to 
 sue a sunflower for copyright infringement."""
 
-
 if __name__ == "__main__":
     # Test the functions
     name = get_name()
