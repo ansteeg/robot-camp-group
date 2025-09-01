@@ -2,7 +2,6 @@ def name():
   return("kacper")
 
 def act3():
-<<<<<<< HEAD
     """
     Returns Act III of the story - The Ridiculous Resolution.
 
@@ -18,4 +17,3 @@ produced an ode to croissants that accidentally made everyone cry.
 In the end nobody won, the meeting notes were illegible, and Bloom magazine survived 
 another day simply because the janitor locked the lights and went home."""
     return act3
-=======
