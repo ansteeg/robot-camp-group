@@ -1,2 +1,2 @@
-def print_name():
-    print "Eleanor Luijkx"
+def ellie():
+    print ("Eleanor Luijkx")
