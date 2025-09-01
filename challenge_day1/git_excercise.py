@@ -13,7 +13,7 @@ print(name())
 print(call_name1())
 print(member_name())
 
-print("The story: /n")
+print("The story:")
 print(act1())
 print(act2())
 print(act3())
