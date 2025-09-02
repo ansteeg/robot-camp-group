@@ -1,12 +1,13 @@
 def solution_station_7(expression):
-  globals_dict = {'a': 3, 'b': -1, 'c': 4, 'd': 7, 'e': 0.5}
-  eval(expression, globals= globals_dict, locals=None)
+  locals_dict = {'a': 3, 'b': -1, 'c': 4, 'd': 7, 'e': 0.5}
+  globals_dict = {"__builtins__": None}
+  result = eval(expression, globals= globals_dict, locals=locals_dict)
   
-  return expression
+  return result
 
 
   """ 
-  eval()
+  hint: eval()
   e*a*d = 10.5
   d+c = 11
   b*a = -3
