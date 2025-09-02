@@ -2,11 +2,11 @@ import numpy as np
 
 def is_prime(n):
   if n < 2:
-        return False
+    return False
   if n == 2:   
-        return True
+    return True
   if n % 2 == 0:  
-        return False
+    return False
     
 
 for i in range(3, int(np.sqrt(n)) + 1, 2):
