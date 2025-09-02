@@ -1,4 +1,14 @@
-learningTeams = {
+def solution_station_5(student_name):
+    """
+    Find the learning team number by student name.
+    
+    Inputs:
+        student_name (str): The name of the student.
+    
+    Outputs:
+        The learning team number(int): Returns -1 if the student is not found.
+    """
+    learningTeams = {
     1: ["Daeho", "David", "Kaisa", "Oliver", "Sara", "Dan", "Ivar", "Lotte", 
         "Riya", "Vassil", "Twan", "Ester", "Karolina", "Lena", "Margarita", 
         "Anna", "Kien", "Klaudia", "Maliah", "Todd"],
@@ -21,17 +31,6 @@ learningTeams = {
     6: ["Keitaro", "Nohemi", "Norina", "Yifan", "Yinan", "Luo", "Nikola", 
         "Olesya", "Sophie", "Tom"]
 }
-
-def solution_station_5(student_name):
-    """
-    Find the learning team number by student name.
-    
-    Inputs:
-        student_name (str): The name of the student.
-    
-    Outputs:
-        The learning team number(int): Returns -1 if the student is not found.
-    """
     for team_id, members in learningTeams.items():
         if student_name in members:
             return team_id
