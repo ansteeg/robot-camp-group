@@ -10,6 +10,8 @@ def solution_station_1(n):
     return b
 
 print(solution_station_1(69))
+print(solution_station_1(30))
+print(solution_station_1(4))
   
 # italian mathematician (fibonacci sequence)
 # 0 0
