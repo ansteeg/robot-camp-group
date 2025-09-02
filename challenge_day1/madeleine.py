@@ -1,4 +1,7 @@
 def get_name():
+    return "This is Team Zin er in. We are: \nMadeleine"
+
+def get_name():
     """
     Returns my name as a string.
     
