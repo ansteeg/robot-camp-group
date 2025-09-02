@@ -1,11 +1,18 @@
-def solution_station_1(int):
-  pass
+def solution_station_1(n):
+  if n <= 0:
+    return 0
+  elif n == 1:
+    return 1
+  else:
+    return f(n-1) + f(n-2)
+
+print (solution_station_1(69))
   
-  italian mathematician (fibonacci sequence)
-0 0
-69 ?
-30 832040
-16 987
-20 6765
-62 4052739537881
-38 39088169
+# italian mathematician (fibonacci sequence)
+# 0 0
+# 69 ?
+# 30 832040
+# 16 987
+# 20 6765
+# 62 4052739537881
+# 38 39088169
