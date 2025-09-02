@@ -19,7 +19,9 @@ def act1_madeleine():
 and one suspiciously sweaty thermos of herbal tea. Margaret, Chair of Snacks and Vibes, 
 proudly held up a rainbow assortment of glitter pens like sacred relics and declared that 
 "true creativity only flows when surrounded by sparkle." She had, however, neglected to mention 
-that these pens had consumed half the magazine's annual budget.
+that these pens had consumed half the magazine's annual budget. Harold tallied costs, Greg’s 
+name buzzed through the room, the intern arranged chairs, and the janitor swept around the rainbow 
+fallout while Margaret beamed.
 """
 
 
@@ -36,7 +38,9 @@ in his bathroom mirror for weeks. "Bloom is the downfall of civilization!"
 he shouted, voice cracking somewhere between indignation and dramatic flair. 
 "Your fonts are too whimsical, your margins are anarchy, and your metaphors… 
 unforgivable!" The room fell silent except for the faint hum of the overhead 
-lights and someone's very audible gasp."""
+lights and someone's very audible gasp. Margaret bristled, Harold adjusted 
+the agenda, Greg doubled down, the intern typed furiously, and the janitor 
+tapped the flickering light."""
 
 
 def act3_madeleine():
@@ -53,7 +57,10 @@ a Magazine That Refuses to Fold." No one admitted to writing it,
 but Harold swore the toner smelled like Greg's cologne. Margaret, 
 unwilling to be outdone by a rogue printer, decorated her copy with 
 glitter stars, then announced it would be serialized in the next issue 
-as "performance literature."
+as "performance literature. Margaret decorated the margins, Harold 
+checked page counts, Greg sniffed the toner suspiciously, the intern 
+archived the stack, and the janitor asked who would recycle the other 
+forty-nine."
 """
 
 
