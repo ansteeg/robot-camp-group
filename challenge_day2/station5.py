@@ -18,7 +18,7 @@ def solution_station_5(student_name):
         "Liangyu", "Maciej", "Toprak", "Chris", "GengXin", "Mingze", "Phoebe"],
 
     3: ["Betija", "Haider", "Kacper", "Sophie", "Amir", "Baltasar", "Isar", 
-        "Jelle", "Nicolas", "David", "Ipek", "Juan", "Marfa", "Maria", "Aleksandra",
+        "Jelle", "Nicolas", "David", "Ipek", "Juan", "Marfa", "Maria", "Alexandra",
         "Alissa", "Leopoldo", "Mies", "Jiaying", "Kaixin", "Mai", "Sem", "Tibbe", "Madeleine"],
 
     4: ["Justus", "Julia", "Philip", "Uli", "Vanessa", "Anna", "Ekaterina", 
