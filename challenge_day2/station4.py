@@ -13,6 +13,6 @@ def solution_station_4(n):
             return False
     return True
 
-print(solution_station_4(2))   # True
-print(solution_station_4(9))   # False
-print(solution_station_4(17))  # True
+#print(solution_station_4(2))   # True
+#print(solution_station_4(9))   # False
+#print(solution_station_4(17))  # True
