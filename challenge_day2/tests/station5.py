@@ -17,7 +17,7 @@ def count_holes(name: str) -> int:
     return sum(holes_map.get(ch, 0) for ch in name)
 
 
-# Examples
+# Trials
 print("Benedikt →", count_holes("Benedikt"))  # expected 2
 print("uli →", count_holes("uli"))            # expected 0
 print("Betija →", count_holes("Betija"))      # expected 3
