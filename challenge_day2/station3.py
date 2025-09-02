@@ -1,4 +1,4 @@
-def are_both_primes(a,b): 
+def is_this_prime(a): 
     def is_prime(n):
         if n < 2 :
             return False 
@@ -7,6 +7,7 @@ def are_both_primes(a,b):
                 return False 
         return True 
         
-    return is_prime(a) and is_prime(b)
+    return is_prime(a)
     
-print(are_both_primes(95, 34307))
+print(is_this_prime(34307))
+print(is_this_prime(95))
