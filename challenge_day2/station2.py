@@ -9,5 +9,6 @@ def station2(date_str):
     # Monday = 0, Sunday = 6. Japanese week starts with Monday.
     return days_jp[date_obj.weekday()]
 
-# Example usage:
-print(station2("2025-09-02"))
+
+date_input = input("Enter a date (YYYY-MM-DD): ")
+print("That day is:", station2(date_input))
