@@ -1,4 +1,4 @@
-import math
+import numpy as np
 def solution_station_6(input):
     """
     Find the sine function result number of input number.
@@ -7,4 +7,4 @@ def solution_station_6(input):
     Outputs:
         A float number. The sine function result of the float number.
     """
-    return round(math.sin(input), 4)
+    return round(np.sin(input), 4)
