@@ -21,7 +21,7 @@
 #Maria Paz 2
 #Balti 3
 
-def station5(name: str) -> int:
+def solution_station_5(name: str) -> int:
     lt1 = {"Daeho", "David", "Kaisa", "Oliver", "Sara", "Dan", "Ivar", "Lotte", "Riya", "Vassil", "Twan", "Ester", "Karolina", "Lena", "Margarita", "Anna", "Kien", "Klaudia", "Maliah", "Todd"}
     lt2 = {"Oumaima", "Mathilde", "Marie", "Anita", "Ziyan", "Bernardo", "Eleanor", "Lorijn", "Maria", "Younes", "Yvan", "Henning", "Liangyu", "Maciej", "Toprak", "Chris", "GengXin", "Mingze", "Phoebe"}
     lt3 = {"Betija", "Haider", "Kacper", "Sophie", "Amir", "Baltasar", "Isar", "Jelle", "Nicolas", "David", "Ipek", "Juan", "Marfa", "Maria", "Alissa", "Leopoldo", "Mies", "Jiaying", "Kaixin", "Mai", "Sem", "Tibbe"}
@@ -32,7 +32,7 @@ def station5(name: str) -> int:
     if name in lt1:
         return 1
     elif name in lt2:
-        return 2
+        return 2 
     elif name in lt3:
         return 3
     elif name in lt4:
