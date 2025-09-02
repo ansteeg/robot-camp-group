@@ -15,6 +15,7 @@ observation1 = ('10:25:18',99, '2024-05-12', 39416, 3941, "Maciej", 39, "a+c+b")
 observation2 = ('10:25:21',99, '2024-02-15', 78510, 7851, "Nadee", 78, "b+e")
 observation3 = ('10:25:31',35, '2024-02-26', 44121, 4412, "Jelle", 44, "d+b+e")
 
+
 def combined_algorithm(observations: tuple) -> int:
     output1 = solution_station_1(observations[1])
     output2 = solution_station_2(observations[2])
