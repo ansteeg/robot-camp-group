@@ -12,6 +12,11 @@ def solution_station_7(int):
   a+d+b+c = 13
   a*d+e+b = 20.5
   e*b+d = 6.5
-  
+
+  a = 3
+  b = -1
+  c = 4
+  d = 7
+  e = 0.5
   """
   
