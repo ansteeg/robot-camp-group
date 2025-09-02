@@ -3,3 +3,5 @@ def solution_station_3(int):
     return True
   else:
     return False
+
+print(solution_station_3(20))
