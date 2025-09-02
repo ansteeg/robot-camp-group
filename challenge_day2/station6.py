@@ -1,11 +1,10 @@
 import math
 def solution_station_6(input):
-"""   Find the sine function result number of input number.
-    
+    """
+    Find the sine function result number of input number.
     Inputs:
         A float number.
-    
     Outputs:
-        Afloat number. The sine function result of the float number."""
-
-  return math.sin(input)
+        A float number. The sine function result of the float number.
+    """
+    return round(math.sin(input), 4)
