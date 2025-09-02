@@ -1,6 +1,6 @@
 #Madeleine and Kacper
 import datetime
-def solution_station_1(date_str):
+def solution_station_2(date_str):
     date_obj = datetime.datetime.strptime(date_str, "%Y-%m-%d")
     weekday_index = date_obj.weekday()
     days_jp = {
