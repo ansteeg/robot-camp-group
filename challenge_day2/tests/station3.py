@@ -1,3 +1,14 @@
+33	32704
+True	?
+58	17371
+False	
+23	11744
+False	
+22	58547
+False	
+7	99991
+False	
+
 def solution_station_3(n: int) -> bool:
     if n < 2:
         return False
