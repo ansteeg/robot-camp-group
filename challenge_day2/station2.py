@@ -15,5 +15,5 @@ def solution_station_2(date_str):
 
     return days_jp[weekday_index]
 
-print(solution_station_2("2023-06-10"))
-print(solution_station_2("2023-09-25"))
+#print(solution_station_2("2023-06-10"))
+#print(solution_station_2("2023-09-25"))
