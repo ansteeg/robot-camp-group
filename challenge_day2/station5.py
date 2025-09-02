@@ -42,4 +42,4 @@ def solution_station_5(name: str) -> int:
     elif name in lt6:
         return 6
     else:
-        return None
+        raise ValueError(f"Name {name} not found in any group")
