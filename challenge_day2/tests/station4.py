@@ -1,6 +1,14 @@
-def solution_station_4(a: int, b: int) -> bool:
-    if b % a == 0:
-        return True
-    if b > 1 and all(b % i for i in range(2, int(b**0.5) + 1)):
-        return True
-    return False
+89	4984
+True	
+21	8741
+False	
+24	9910
+False	
+10	3748
+False	
+40	7660
+False	
+19	1642
+True	
+53	7397
+True	
