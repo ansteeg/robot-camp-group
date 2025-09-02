@@ -9,6 +9,6 @@ def solution_station_2(date_str: str) -> str:
     try:
         date_obj = datetime.datetime.strptime(date_str, '%Y-%m-%d')
     except (TypeError, ValueError):
-        # Ensure we still return a non-empty string so output2[0] is valid in tests
+        
         return "?"
     return days_jp[date_obj.weekday()]

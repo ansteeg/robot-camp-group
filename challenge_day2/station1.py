@@ -1,18 +1,14 @@
-# station1.py
-
-def solution_station_1(n: int) -> int:
-    
-    if not isinstance(n, int):
-        raise ValueError("Input must be an integer")
+def solution_station_1(n):
+    def fast_doubling(n: int):
+        if n == 0:
+            return (0, 1)
+        a, b = fast_doubling(n >> 1)
+        c = a * ((b << 1) - a)
+        d = a*a + b*b
+        if n & 1:
+            return (d, c + d)
+        else:
+            return (c, d)
     if n < 0:
-        raise ValueError("Input must be non-negative")
-
-    a, b = 0, 1   # F(0), F(1)
-    for _ in range(n):
-        a, b = b, a + b
-    return a
-
-
-if __name__ == "__main__":
-    # Quick self-check
-    print(solution_station_1(44))  # 701408733
+        raise ValueError("n must be nonnegative")
+    return fast_doubling(n)[0]

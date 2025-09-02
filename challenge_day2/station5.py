@@ -1,9 +1,6 @@
-# station5.py
 
 def solution_station_5(name):
-    """
-    Return the Learning Team (LT) number for a given name.
-    """
+
 
     LT1 = ["Daeho", "David", "Kaisa", "Oliver", "Sara", "Dan", "Ivar", "Lotte", 
            "Riya", "Vassil", "Twan", "Ester", "Karolina", "Lena", "Margarita", 
