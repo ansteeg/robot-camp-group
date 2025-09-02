@@ -22,7 +22,7 @@ learningTeams = {
         "Olesya", "Sophie", "Tom"]
 }
 
-def solution_sattion_5(student_name):
+def solution_station_5(student_name):
     """
     Find the learning team number by student name.
     
