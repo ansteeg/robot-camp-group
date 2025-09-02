@@ -12,7 +12,3 @@ def solution_station_2(date_str: str) -> str:
         # Ensure we still return a non-empty string so output2[0] is valid in tests
         return "?"
     return days_jp[date_obj.weekday()]
-
-
-date_input = input("Enter a date (YYYY-MM-DD): ")
-print("That day is:", solution_station_2(date_input))
