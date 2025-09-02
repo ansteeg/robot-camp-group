@@ -1,11 +1,38 @@
-def solution_station_5(input):
-  ('9:25:30', "Maria", 3, "Jelle", "")
-  ('9:25:20', "Mies", 3, "Nadee", "")
-  ('9:25:15', "Philip", 4, "Maciej", "")
+learningTeams = {
+    1: ["Daeho", "David", "Kaisa", "Oliver", "Sara", "Dan", "Ivar", "Lotte", 
+        "Riya", "Vassil", "Twan", "Ester", "Karolina", "Lena", "Margarita", 
+        "Anna", "Kien", "Klaudia", "Maliah", "Todd"],
 
+    2: ["Oumaima", "Mathilde", "Marie", "Anita", "Ziyan", "Bernardo", 
+        "Eleanor", "Lorijn", "Maria", "Younes", "Yvan", "Henning", 
+        "Liangyu", "Maciej", "Toprak", "Chris", "GengXin", "Mingze", "Phoebe"],
 
-# Format: (time: str, station1_input: int, station2_input: str, station3_input: int, station4_input: int, station5_input: str, station6_input: int, station7_input: str)
-# Example: ('12:30:00', 1, '1990-01-01', 2, 3, "John", 4, "e=mc^2")
-observation1 = ...
+    3: ["Betija", "Haider", "Kacper", "Sophie", "Amir", "Baltasar", "Isar", 
+        "Jelle", "Nicolas", "David", "Ipek", "Juan", "Marfa", "Maria", 
+        "Alissa", "Leopoldo", "Mies", "Jiaying", "Kaixin", "Mai", "Sem", "Tibbe", "Madeleine"],
 
-  return output
+    4: ["Justus", "Julia", "Philip", "Uli", "Vanessa", "Anna", "Ekaterina", 
+        "Thessa", "Tongfei", "Yang", "Benedikt", "Jan", "Nadee", "Osjah", 
+        "Tim", "Eliana", "Joana", "Peilin", "Pija", "Wenhao"],
+
+    5: ["Afua", "Cristina", "Greta", "Jace", "Laura", "Anna", "Bassant", 
+        "Ivan", "Juriaan", "Kiavash"],
+
+    6: ["Keitaro", "Nohemi", "Norina", "Yifan", "Yinan", "Luo", "Nikola", 
+        "Olesya", "Sophie", "Tom"]
+}
+
+def solution_sattion_5(student_name):
+    """
+    Find the learning team number by student name.
+    
+    Inputs:
+        student_name (str): The name of the student.
+    
+    Outputs:
+        The learning team number(int): Returns -1 if the student is not found.
+    """
+    for team_id, members in learningTeams.items():
+        if student_name in members:
+            return team_id
+    return -1
