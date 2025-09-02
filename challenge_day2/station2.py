@@ -6,8 +6,5 @@ def solution_station_2(date2):
     return japanese_weekdays[dt2.weekday()]
 
 
-print(solution_station_2("2024-01-01"))  # 火曜日
-print(solution_station_2("2024-07-20"))  # 土曜日
-
 
 
