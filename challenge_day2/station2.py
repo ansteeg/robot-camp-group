@@ -1,6 +1,6 @@
 import datetime
 
-def solution_solution_station__2(date_str: str) -> str:
+def solution_station_2(date_str: str) -> str:
     """
     Return the weekday in Japanese for a date string 'YYYY-MM-DD'.
     (例: '2025-09-02' -> '火曜日')
@@ -15,4 +15,4 @@ def solution_solution_station__2(date_str: str) -> str:
 
 
 date_input = input("Enter a date (YYYY-MM-DD): ")
-print("That day is:", station2(date_input))
+print("That day is:", solution_station_2(date_input))
