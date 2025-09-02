@@ -1,6 +1,6 @@
 # station2.py
 
-def solution_station_2(name):
+def solution_station_5(name):
     """
     Return the Learning Team (LT) number for a given name.
     """
