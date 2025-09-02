@@ -1,4 +1,4 @@
-def is_this_prime(a): 
+def solution_station_3(a): 
     def is_prime(n):
         if n < 2 :
             return False 
@@ -9,5 +9,5 @@ def is_this_prime(a):
         
     return is_prime(a)
     
-print(is_this_prime(34307))
-print(is_this_prime(95))
+print(solution_station_3(34307))
+print(solution_station_3(95))
