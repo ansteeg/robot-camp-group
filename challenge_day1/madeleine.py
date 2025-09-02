@@ -1,4 +1,4 @@
-def get_name():
+def get_teamname():
     return "This is Team Zin er in. We are: \nMadeleine"
 
 def get_name():
