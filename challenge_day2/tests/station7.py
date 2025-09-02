@@ -29,6 +29,26 @@ c=4.
 
 Dan volgt 
 d=7
+
+
+
+
+
+
+from sympy import symbols
+
+# definieer de variabelen
+a, b, c, d, e = symbols('a b c d e')
+
+# hier vul je waarden in
+values = {a: 3, b: -1, c: 4, d: 7, e: 0.5}
+
+# hier typ je gewoon je formule
+formula = d*c + e + b
+
+# uitrekenen
+result = formula.subs(values)
+print(result)
 d=7, 
 a=3
 a=3, 
