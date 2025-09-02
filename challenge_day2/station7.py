@@ -1,9 +1,6 @@
 def solution_station_7(expression):
-  a = 3
-  b = -1
-  c = 4
-  d = 7
-  e = 0.5
+  eval(expression, globals= [a = 3,  b = -1,  c = 4,  d = 7,  e = 0.5], locals=None)
+  
   return expression
 
 
