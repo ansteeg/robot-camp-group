@@ -2,7 +2,7 @@ def solution_station_7(expression):
   locals_dict = {'a': 3, 'b': -1, 'c': 4, 'd': 7, 'e': 0.5}
   globals_dict = {"__builtins__": None}
   result = eval(expression, globals = globals_dict, locals = locals_dict)
-  
+  result = float(result)
   return result
 
 
