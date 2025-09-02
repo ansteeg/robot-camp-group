@@ -4,10 +4,12 @@ character= 'Rob'
 
 def act1():
     # Act 1, paragraph 1
-    print("Once, in a far far away galaxy and a floating rock in a _ Way, six silly piglets were really hungry. They decided to make dinner, however after making the vegetarian curry, they realised that there was not enough forks. They only had one. After a lot of chatty searches, six piglets realised that the only way out is to install GitHub and clone the forks.")
+    print(" Once, in a far far away galaxy, Rob wandered across a floating rock in the Milky Way. Rob was really hungry and decided to make dinner. After cooking a vegetarian curry, Rob realized there weren’t enough forks.")
 
 def act2():
-    print("Rob and Bob started gossiping about how Gog spent his summer. Blob and Snob did _ understand anything, and Mod went to get a _. Mob and dog work at the same cafe. Rob and Bob could not stop laughing, but they need to get to work…")
+    # Act 2, paragraph 1
+    print(" Rob started gossiping about the summer. Rob giggled at the thought, even when the others didn’t understand.")
 
 def act3():
-    print("The story of six piglets (Rob, Bob, Snob, Blob, Mob, Gog) should be taught at every _ as an example of FRIENDSHIIIIIIIIIP???>>")
+    # Act 3, paragraph 1
+    print(" Some say the story of Rob should be taught at every school as an example of friendship. Rob smiled at the thought.")
