@@ -1,4 +1,4 @@
-import charactername.py 
+import charactername
 def diogo():
     print("Diogo")
 
