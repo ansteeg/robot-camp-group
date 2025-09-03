@@ -3,7 +3,7 @@ def yvan():
 
 
 def act1_scene4():
-    print("The Robaddie, featurin Don Quijote, Princess Dia, Din Jin Ping, Dracula, and Don Tour, are at luck! Their group also consists of a doctor, Doctor Nikki. Doctor Nikki is a plastic surgeon that really enjoys working on using plastic from the streets and putting it into people.")
+    print("The Robaddies, featurin Don Quijote, Princess Dia, Din Jin Ping, Dracula, and Don Tour, are at luck! Their group also consists of a doctor, Doctor Nikki. Doctor Nikki is a plastic surgeon that really enjoys working on using plastic from the streets and putting it into people.")
 
 def act2_scene4():
     print("Before becoming the Hero Party with Princess Dia, Dinh Jin Ping, Doctor Nikki, and Dracula, the brothers Quijote and Tour were only children. Their days were filled with chasing each other through the grass, swinging sticks like swords and dreaming of becoming knights like their father, Don John. Don John was a man of discipline and pride, respected by the townsfolk for his loyalty. To Quijote and Tour, he was larger than life, despite his awful drug addiction.. Their mother was gentle but firm. They thought the world would always be so simple: family, laughter, and the peaceful nightsky. None of them could imagine how quickly that dream would be torn apart.")
