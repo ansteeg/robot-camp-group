@@ -1,3 +1,4 @@
+import charactername
 def kien():
   print("Kien")
 
