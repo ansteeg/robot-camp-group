@@ -3,7 +3,7 @@ def diogo():
     print("Diogo")
 
 def act1_scene1():
-    print(f"The Robaddies are a renowned hero group consisting of 6 members, {D()}, {P()}, {J()}, {N()}, {A()}, and {A()}. {D()}, brother to {T()}, is a fallen hero. He has fought Git before and has lost his family to it. He doesn’t want anyone to go through what he has been before so he is helping this young group of heroes face git. But everytime that name is mentioned he has flashbacks and the PTSD kicks in.")
+    print(f"The Robaddies are a renowned hero group consisting of 6 members, {D()}, {P()}, {J()}, {N()}, {A()}, and {T()}. {D()}, brother to {T()}, is a fallen hero. He has fought Git before and has lost his family to it. He doesn’t want anyone to go through what he has been before so he is helping this young group of heroes face git. But everytime that name is mentioned he has flashbacks and the PTSD kicks in.")
 
 def act2_scene1():
     print(f"This story follows the hero party of {D()}, {P()}, {J()}, {N()}, {A()}, and {T()}. The Git have been trying to reinforce their rule over the Decimalcon since the dawn of time. Reigning terror over the lesser species of the continent for thousands of years. Plundering, slavery, and oppression, the people of Decimalcon have been subject to hell their entire life.")
