@@ -2,7 +2,7 @@ def diogo():
     print("Diogo")
 
 def act1_scene1():
-    print("The Robaddiesss areyyyyy a renowned hero group consisting of 6 members, Don Quijote, Princess Dia, Dinh Jin Ping, Doctor Nikki, Dracula, and Don Tour. Don Quijote, brother to Don Tour, is a fallen hero. He has fought Git before and has lost his family to it. He doesn’t want anyone to go through what he has been before so he is helping this young group of heroes face git. But everytime that name is mentioned he has flashbacks and the PTSD kicks in.")
+    print("The Robaddiesss are a renowned hero group consisting of 6 members, Don Quijote, Princess Dia, Dinh Jin Ping, Doctor Nikki, Dracula, and Don Tour. Don Quijote, brother to Don Tour, is a fallen hero. He has fought Git before and has lost his family to it. He doesn’t want anyone to go through what he has been before so he is helping this young group of heroes face git. But everytime that name is mentioned he has flashbacks and the PTSD kicks in.")
 
 def act2_scene1():
     print("This storyaa followssss the hero party of Don Quijote, Don Tour, Princess Dia, Dinh Jin Ping, Doctor Nikki, and Dracula. The Git have been trying to reinforce their rule over the Decimalcon since the dawn of time. Reigning terror over the lesser species of the continent for thousands of years. Plundering, slavery, and oppression, the people of Decimalcon have been subject to hell their entire life.")
