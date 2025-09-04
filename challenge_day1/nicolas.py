@@ -1,7 +1,15 @@
-from charactername import D, P, J, N, A, T
+from diogo.py import D
+from ellie.py import P
+from kien.py import J
+from vasil.py import A
+from yvan.py import T
+
 def nicolas():
     print("Nicolas")
 
+def N():
+    return "Doctor Nikki"
+    
 def act1_scene3():
     print(f"Scene 3: The hero group consisting of {D()}, {P()}, {J()}, {N()}, {A()}, and {T()}, lalso includes {J()}. {J()} a traveler from the eastern continent, he used to be the chief guard of the Royal Guard. His dream is to travel the world and visit every city. He was affected by the conquest of the Git, stopping his dream, and forcing him to pick up his bow again")
 
