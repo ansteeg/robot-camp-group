@@ -1,33 +1,40 @@
 # Check if jsonlite is installed; if not, install it
 if (!requireNamespace("jsonlite", quietly = TRUE)) {
-  install.packages("jsonlite", repos = "http://cran.rstudio.com/")
+  install.packages("jsonlite", repos = "https://cran.rstudio.com/")
 }
 
 # Load the required library
 library(jsonlite)
 
-# Read the JSON file into a data frame
+# Read the JSON file into an R object
 json_data <- fromJSON("data1.json")
 
-# Convert the 'people' list to a data frame
+# Convert the 'people' element to a data frame (if not already)
 people_df <- as.data.frame(json_data$people)
 
-# Replace NAs with column means
-for(col_name in names(people_df)) {
-  if(is.numeric(people_df[[col_name]])) {
-    # Calculate mean, excluding NAs
+# Replace NAs with column means (only for numeric columns)
+for (col_name in names(people_df)) {
+  if (is.numeric(people_df[[col_name]])) {
     col_mean <- mean(people_df[[col_name]], na.rm = TRUE)
-    
-    # Replace NAs with the calculated mean
-    people_df[[col_name]][is.na(people_df[[col_name]])] <- col_mean
+    if (!is.nan(col_mean)) { # avoid replacing with NaN if entire column is NA
+      people_df[[col_name]][is.na(people_df[[col_name]])] <- col_mean
+    }
   }
 }
 
-# Replace the 'people' list in the original data with the modified data frame
-json_data$people <- person_df
+#After checking the test-data2.json, the code should help to remove all people with
+#less than 5 different skills. Excluding "names" column, number of skills(column length)
+#should be counted and keep only people with 5 more skills.
+people_df$count_skill <- apply(people_df, 1, function(x) sum(!is.na(x)) -1)
+people_df <- subset(people_df, count_skill >=5)
 
-# Convert the updated data back to JSON format
+
+
+# Put the modified data frame back into the JSON structure
+json_data$people <- people_df
+
+# Convert the updated object back to JSON format (pretty-printed)
 json_text <- toJSON(json_data, pretty = TRUE)
 
-# Overwrite the original JSON file
-write(json_text, "data2.json")
+# Save JSON to a new file
+writeLines(json_text, "data2.json")
