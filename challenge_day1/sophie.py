@@ -1,7 +1,7 @@
 def bestname():
      print ("sophie")
 
-def act1_sophie():
+def act1_22():
     act1 = """Harold, Treasurer of Paperclips, adjusted his three pairs of glasses and 
 slammed the table so hard that two croissants became airborne. This, he 
 thundered, "is not budgeting. This is financial terrorism!" A hush fell 
@@ -13,7 +13,7 @@ the ceiling for croissant shrapnel."""
     return act1
 
 
-def act2_sophie():
+def act2_22():
     act2 = """That gasp came from Margaret, who inhaled an entire croissant crumb sideways in horror. 
  She wheezed, coughed, then pointed at Greg with her glitter pen like it was a dagger of truth. 
  You come into our sacred meeting space, she croaked dramatically, and insult the soul of this magazine?
@@ -24,7 +24,7 @@ def act2_sophie():
     return act2
 
 
-def act3_sophie():
+def act3_22():
     act3 = """The next day, the editorial board tried to hold a serious meeting, but every agenda item dissolved into 
  debates about whether croissants should be classified as breakfast philosophy or editorial theory. Greg 
  suggested replacing the entire magazine with a single annual crossword puzzle that contained only the word 
@@ -32,3 +32,4 @@ def act3_sophie():
  for sustainability. Margaret called for a truce, Harold kept minutes for once, Greg proposed a crossword coup,
  the intern recorded every vote, and the janitor unplugged the projector."""
     return act3
+
