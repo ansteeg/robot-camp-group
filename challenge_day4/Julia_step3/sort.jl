@@ -1,7 +1,11 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
+# Build the path to the CSV file
+# Adjust this to the actual full path to your testdata folder
+datafile = "/Users/yvanpiccirilli/Desktop/computational-thinking-week-group-ROBADDIES/challenge_day4/testdata/data3.csv"
+
 # Read the CSV file into a DataFrame
-people_df = CSV.File("data3.csv") |> DataFrame
+people_df = CSV.File(datafile) |> DataFrame
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)
