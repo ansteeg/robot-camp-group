@@ -22,9 +22,8 @@ def act1_11():
 and one suspiciously sweaty thermos of herbal tea. Margaret, Chair of Snacks and Vibes, 
 proudly held up a rainbow assortment of glitter pens like sacred relics and declared that 
 "true creativity only flows when surrounded by sparkle." She had, however, neglected to mention 
-that these pens had consumed half the magazine's annual budget. Harold tallied costs, Greg’s 
-name buzzed through the room, the intern arranged chairs, and the janitor swept around the rainbow 
-fallout while Margaret beamed.
+that these pens had consumed half the magazine's annual budget. Margaret beamed as glitter 
+drifted across the room like confetti at a parade.
 """
 
 
@@ -35,15 +34,13 @@ def act2_11():
     Returns:
         str: The story about the Bloom magazine board meeting.
     """
-    return """Greg pointed a trembling finger at the table of board members, 
-his eyes wild with the fervor of someone who had been rehearsing this moment 
-in his bathroom mirror for weeks. "Bloom is the downfall of civilization!" 
-he shouted, voice cracking somewhere between indignation and dramatic flair. 
-"Your fonts are too whimsical, your margins are anarchy, and your metaphors… 
-unforgivable!" The room fell silent except for the faint hum of the overhead 
-lights and someone's very audible gasp. Margaret bristled, Harold adjusted 
-the agenda, Greg doubled down, the intern typed furiously, and the janitor 
-tapped the flickering light."""
+    return """Margaret rose to her feet, pointing dramatically at the table as though 
+delivering a speech to history itself. "Bloom is the soul of civilization!" she declared, 
+her voice echoing between the fluorescent lights. "Without whimsy in our fonts, without 
+imagination in our margins, the world would crumble into beige monotony." 
+Her words hung heavy in the silent room, broken only by the hum of the overhead lights. 
+Margaret crossed her arms with fierce determination, glitter pen still clutched like a sword.
+"""
 
 
 def act3_11():
@@ -53,17 +50,12 @@ def act3_11():
     Returns:
         str: The story about the Bloom magazine board meeting.
     """
-    return """Just when the staff thought the drama was over, 
-the office printer whirred ominously and spat out fifty copies 
-of an unsigned manifesto titled "Bloom Forever: A Manifesto for 
-a Magazine That Refuses to Fold." No one admitted to writing it, 
-but Harold swore the toner smelled like Greg's cologne. Margaret, 
-unwilling to be outdone by a rogue printer, decorated her copy with 
-glitter stars, then announced it would be serialized in the next issue 
-as "performance literature. Margaret decorated the margins, Harold 
-checked page counts, Greg sniffed the toner suspiciously, the intern 
-archived the stack, and the janitor asked who would recycle the other 
-forty-nine."
+    return """Just when the drama seemed to fade, the office printer whirred ominously 
+and spat out fifty copies of an unsigned manifesto titled "Bloom Forever: A Manifesto for 
+a Magazine That Refuses to Fold." Margaret seized the stack triumphantly, decorating the 
+first page with glitter stars before announcing it would be serialized in the next issue 
+as "performance literature." She smiled, satisfied, already envisioning Bloom’s future 
+written in sparkle across every page.
 """
 
 

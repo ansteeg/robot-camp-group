@@ -2,29 +2,34 @@ def call_name():
     print("Ivar")
 
 def act1_33():
-    act1 = """ Before she could launch into her ten-minute PowerPoint on "The Socioeconomic Importance of Glitter," 
-the door creaked open. In stormed Greg, the infamous Bloom hater, known in town for once trying to 
-sue a sunflower for copyright infringement. His scarf was dramatically long, his expression permanently 
-scowling, and his hands clutched a binder labeled "Bloom = Doom."
+    act1 = """The door creaked open, and in walked Bob the Janitor. 
+He carried his trusty mop like a knight’s sword, his boots squeaking 
+on the polished floor. Bob glanced at the chaos of papers and croissants 
+strewn across the room, sighed, and muttered, “Every day it’s the same—
+mess first, answers later.” With that, he set his mop in the corner and 
+prepared to restore order in his own quiet way.
     """
     return act1
 
 def act2_33():
-    act2 = """
-    Meanwhile, Harold clutched his meticulously organized spreadsheets as if
-    they were sacred texts. His left eye twitched. “Sir,” he began, adjusting his glasses with righteous fury,
-    “I’ll have you know our margins are ISO certified!” The word “ISO” echoed like a war cry through the 
-    conference room. His glasses began to fog, equal parts rage and leftover coffee steam. He rose halfway 
-    out of his chair before realizing he wasn’t sure if his belt would hold under pressure, and promptly sat back down with dignity barely intact.
+    act2 = """Bob the Janitor adjusted his cap and stared at the mountain of 
+crumbs and glitter scattered across the floor. “Margins, budgets, 
+balloons… none of it matters if no one sweeps,” he grumbled. 
+With a slow shake of his head, he began tidying the room, humming 
+a tune only he seemed to know. Every sweep of his broom felt 
+like punctuation on the meeting’s nonsense—steady, grounding, 
+and inevitable.
     """
     return act2
 
 def act3_33():
-    act3= """
-    Meanwhile, Margaret secretly hired a balloon artist to “elevate the brand.” Soon the office was crammed 
-    with balloon giraffes, balloon baguettes, and an unsettling balloon effigy of Harold holding a calculator. 
-    Staff could no longer move without squeaking. Greg attempted to conduct an interview with an avant-garde 
-    poet while trapped between two balloon flamingos, and the transcript consisted entirely of “honk squeak thud.”
+    act3 = """The next morning, Bob the Janitor returned to find 
+the office crammed with leftover balloons and glitter stuck 
+to the ceiling. He sighed, rolled up his sleeves, and got to work. 
+By the time the staff arrived, every chair was in place, the floors 
+sparkled, and the chaos had vanished—except for a single balloon 
+he left floating in the middle of the table. Bob smiled. “Let them 
+wonder,” he whispered, before slipping quietly out the door.
     """
     return act3
 
