@@ -4,7 +4,7 @@ from nicolas import N
 from vasil import A
 from yvan import T
 
-def diogo():
+def diogo_name():
     print("Diogo")
 
 def D():
