@@ -32,12 +32,15 @@ for col_name in names(people_df)[2:end]
     quartiles = quantile(valid_data, [0.25, 0.5, 0.75])
 
     # Replace values with categories or 'low' if they are Float64
-    new_col = map(x -> x isa Float64 ? "low" : classification_score(x, quartiles), col_data)
+    new_col = map(x -> x isa Float64 ? "low" : classify_score(x, quartiles), col_data)
     people_df[!, col_name] = new_col
 end
 
 # Save the modified DataFrame back to a new CSV file
-CSV.write("data4.txt", people_df)
+CSV.write("data4.csv", people_df)
 
-# Save the modified DataFrame back to a new TXT file
-#writedlm("data4.txt", people_df, ',')
+# Save the modified DataFrame back to a new TXT file (with header)
+header = string.(names(people_df))             
+data = Matrix(people_df)                       
+all_data = vcat(reshape(header, 1, :), data)  
+writedlm("data4.txt", all_data, ',')
