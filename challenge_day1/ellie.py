@@ -1,7 +1,15 @@
-from charactername import D, P, J, N, A, T
+from diogo.py import D
+from kien.py import J
+from nicolas.py import N
+from vasil.py import A
+from yvan.py import T
+
 def ellie():
     print ("Ellie")
 
+def P():
+  return "Princess Dia"
+    
 def act1_scene6():
     print(f"The members {P()}, {J()}, {N()}, and {A()} look up to the brothers {D()} and {T()} as their leaders. {T()}, {D()}’s younger brother, considers himself as a power ranger. The blue one. He takes inspiration from him. He has everything to resemble him and act like him, amid his heavy drug addiction.")
 
