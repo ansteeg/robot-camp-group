@@ -1,7 +1,15 @@
-from charactername import D, P, J, N, A, T
+from diogo.py import D
+from ellie.py import P
+from kien.py import J
+from nicolas.py import N
+from yvan.py import T
+
 def vasil():
     print("vasil")
 
+def A():
+  return "Dracula"
+    
 def act1_scene2():
     print(f"Scene 2: The next member of the Robaddies, {P()}, is not actually a princess. Actually, she’s a queen. This is because she was next in line for the town of Kallin, and Git killed her parents and then she had to become queen but she didn’t want to. She didn’t want to be queen in the time of Git. She knew she had to destroy Git before she would even deem herself worthy of the throne. Thus, {P()} joined the Robaddies to avenge Git for the lives of her parents. ")
 
