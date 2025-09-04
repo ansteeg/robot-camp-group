@@ -1,8 +1,8 @@
-from diogo.py import D
-from ellie.py import P
-from kien.py import J
-from nicolas.py import N
-from yvan.py import T
+from diogo import D
+from ellie import P
+from kien import J
+from nicolas import N
+from yvan import T
 
 def vasil():
     print("vasil")
