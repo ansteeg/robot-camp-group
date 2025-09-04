@@ -1,7 +1,11 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
+# Build the path to the CSV file
+# Adjust this to the actual full path to your testdata folder
+datafile = "/Users/yvanpiccirilli/Desktop/computational-thinking-week-group-ROBADDIES/challenge_day4/testdata/data3.csv"
+
 # Read the CSV file into a DataFrame
-people_df = CSV.File("data3.csv") |> DataFrame
+people_df = CSV.File(datafile) |> DataFrame
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)
@@ -32,7 +36,7 @@ for col_name in names(people_df)[2:end]
     quartiles = quantile(valid_data, [0.25, 0.5, 0.75])
 
     # Replace values with categories or 'low' if they are Float64
-    new_col = map(x -> x isa Float64 ? "low" : classification_score(x, quartiles), col_data)
+    new_col = map(x -> x isa Float64 ? "low" : classify_score(x, quartiles), col_data)
     people_df[!, col_name] = new_col
 end
 
