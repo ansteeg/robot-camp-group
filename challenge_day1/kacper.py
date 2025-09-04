@@ -1,32 +1,37 @@
 def name():
-  return("kacper")
+    return "kacper"
+
+def call_name_44():
+    return "Greg"
 
 def act1_44():
-  act1 = """ Ladies, gentlemen, and glitter enthusiasts," Greg sneered, "I have come to expose this fraudulent operation." 
-  He slammed his binder on the table, sending more crumbs flying. "Bloom magazine is nothing but overpriced doodles 
-  wrapped in pretentious adjectives. And I, as a concerned citizen, demand the immediate disbanding of this… paper cult. 
-  Margaret narrowed her eyes, Harold shuffled spreadsheets, Greg tapped the binder, the intern gulped, and the janitor hovered with a broom like a referee.
- """
-  
-  return act1
+    act1 = """Harold sat at the head of the table, spreadsheets stacked 
+neatly before him like shields in a battle. He adjusted his glasses, 
+tapped the numbers with his pen, and cleared his throat. 
+"Ladies, gentlemen, and budget dreamers," he began, "what you see 
+before you is not chaos, but financial destiny." Crumbs littered 
+the agenda, but Harold ignored them—his focus was absolute. 
+He shuffled his pages once more, determined to bring order 
+to the room through the power of accounting. And then laughs:"""
+    return act1
 
 def act2_44():
-  act2 = """ Greg, not one to be silenced by facts or ISO certifications, reached into his overcoat like a magician
-  revealing his final trick. From its inner pocket, he withdrew a crumpled piece of paper, unfolded it with the dramatic
-  tension of a courtroom reveal, and held it aloft. “This!” he cried. “This is the truth!” The paper revealed a stick figure
-  with tears streaming down its face, standing beneath the crudely scrawled words: “Bloom is doom.” He stared around the room,
-  awaiting stunned silence and applause. Margaret exchanged a look with Harold, Greg waved the paper triumphantly, the intern
-  stopped typing, and the janitor raised an eyebrow at the drawing.
-"""
-
-  return act2
+    act2 = """Harold reached into his folder with the precision of a surgeon. 
+From it, he withdrew a single, wrinkled page—his newest projection. 
+"This," he declared, "is the truth." On the paper was a carefully 
+drawn graph of rising expenses and dwindling revenues, annotated 
+with more exclamation points than numbers. Harold held it aloft, 
+waiting for stunned silence, but the only sound was his own steady 
+breath. He nodded to himself, satisfied. Sometimes numbers were 
+applause enough. And then laughs:"""
+    return act2
 
 def act3_44():
-    act3 = """ As deadlines loomed, the interns revolted, not with protest signs, but by staging a dramatic puppet
-    show in the break room. Using coffee cups and sticky notes, they reenacted the rise and fall of Bloom magazine
-    in interpretive slow motion. The puppets all mysteriously exploded in Act III, which everyone agreed was “a bit
-    on the nose” but also “unexpectedly profound.” Greg pretended not to watch, Margaret applauded the craft, Harold
-    called it “budget theater,” the intern narrated the finale, and the janitor confiscated the glitter.
-"""
-  
+    act3 = """As deadlines loomed, Harold refused to panic. Instead, 
+he staged a one-man presentation in the break room, using coffee cups 
+as bar charts and sticky notes as pie graphs. His reenactment of Bloom's 
+financial situation was both harrowing and oddly poetic. In the grand finale, 
+a coffee cup toppled over, spilling cold espresso across the table. 
+Harold sighed, adjusted his glasses, and muttered: "Budget theater 
+always ends in tragedy." And then laughs:"""
     return act3
