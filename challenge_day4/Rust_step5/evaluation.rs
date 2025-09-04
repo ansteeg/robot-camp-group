@@ -4,6 +4,8 @@ use std::path::Path;
 use std::fs::OpenOptions;
 use std::io::Write;
 
+
+
 fn main() -> io::Result<()> {
     let path = Path::new("data5.txt");
     let file = File::open(&path)?;
@@ -14,7 +16,7 @@ fn main() -> io::Result<()> {
         .create(true)
         .open("data6.txt")?;
     
-    for (indexing, line) in reader.lines().enumerate() {
+    for (index, line) in reader.lines().enumerate() {
         let line = line?;
         
         if index == 0 {
@@ -59,7 +61,7 @@ fn main() -> io::Result<()> {
             0.0 // or whatever you want to set it to if no skills are evaluated
         };
         
-        writeln!(output, "{},{},{}", line, parts[6], evaluation)?;
+        writeln!(output, "{},{}", line, evaluation)?;
     }
     
     Ok(())
