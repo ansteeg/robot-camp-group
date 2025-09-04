@@ -4,7 +4,7 @@ from nicolas import N
 from vasil import A
 from yvan import T
 
-def kien():
+def kien_name():
   print("Kien")
 
 def J():
