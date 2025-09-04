@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Madeleine and Kacper
 
 def solution_station_1(n):
@@ -15,3 +16,28 @@ print(solution_station_1(69))
 
 
 print(solution_station_1(4))
+=======
+def solution_station_1(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    
+    a, b = 0, 1
+    for _ in range(2, n+1):
+        a, b = b, a+b
+    return b
+
+#print(solution_station_1(69))
+#print(solution_station_1(30))
+#print(solution_station_1(4))
+  
+# italian mathematician (fibonacci sequence)
+# 0 0
+# 69 ?
+# 30 832040
+# 16 987
+# 20 6765
+# 62 4052739537881
+# 38 39088169
+>>>>>>> a12f914dc4bb7fd7b2bfecfefa3352ae29f469e0
