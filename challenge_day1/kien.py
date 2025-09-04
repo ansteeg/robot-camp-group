@@ -1,8 +1,8 @@
-from diogo.py import D
-from ellie.py import P
-from nicolas.py import N
-from vasil.py import A
-from yvan.py import T
+from diogo import D
+from ellie import P
+from nicolas import N
+from vasil import A
+from yvan import T
 
 def kien():
   print("Kien")
