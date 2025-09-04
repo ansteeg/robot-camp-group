@@ -1,6 +1,14 @@
-from charactername import D, P, J, N, A, T
+from ellie.py import P
+from kien.py import J
+from nicolas.py import N
+from vasil.py import A
+from yvan.py import T
+
 def diogo():
     print("Diogo")
+
+def D():
+  return "Don Quijote"
 
 def act1_scene1():
     print(f"The Robaddies are a renowned hero group consisting of 6 members, {D()}, {P()}, {J()}, {N()}, {A()}, and {T()}. {D()}, brother to {T()}, is a fallen hero. He has fought Git before and has lost his family to it. He doesn’t want anyone to go through what he has been before so he is helping this young group of heroes face git. But everytime that name is mentioned he has flashbacks and the PTSD kicks in.")
