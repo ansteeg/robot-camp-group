@@ -1,6 +1,14 @@
-from charactername import D, P, J, N, A, T
+from diogo.py import D
+from ellie.py import P
+from nicolas.py import N
+from vasil.py import A
+from yvan.py import T
+
 def kien():
   print("Kien")
+
+def J():
+  return "Dinh Jin Ping"
 
 def act1_scene5():
     print(f"{A()}, the scariest member of the Robaddies, often scares the other members, {D()}, {P()}, {J()}, {N()}, and {T()}. {A()} is a hero who hides within the shadows, wielding ancient powers as he fights alongside his teammates. His eerie presence often sends shivers through his friends and enemies.")
