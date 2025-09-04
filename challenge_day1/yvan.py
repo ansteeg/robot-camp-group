@@ -1,4 +1,4 @@
-import charactername
+from charactername import D, P, J, N, A, T
 def yvan():
     print("Yvan")
 
