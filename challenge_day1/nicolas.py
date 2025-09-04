@@ -1,14 +1,25 @@
-from diogo import D
-from ellie import P
-from kien import J
-from vasil import A
-from yvan import T
 
 def nicolas_name():
     print("Nicolas")
 
+def D():
+    return "Don Quijote"
+
+def P():
+    return "Princess Dia"
+
+def J():
+    return "Dinh Jin Ping"
+
 def N():
     return "Doctor Nikki"
+
+def A():
+    return "Dracula"
+
+def T():
+    return "Don Tour"
+
     
 def act1_scene3():
     print(f"Scene 3: The hero group consisting of {D()}, {P()}, {J()}, {N()}, {A()}, and {T()}, lalso includes {J()}. {J()} a traveler from the eastern continent, he used to be the chief guard of the Royal Guard. His dream is to travel the world and visit every city. He was affected by the conquest of the Git, stopping his dream, and forcing him to pick up his bow again")

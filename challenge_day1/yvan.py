@@ -1,14 +1,25 @@
-from diogo import D
-from ellie import P
-from kien import J
-from nicolas import N
-from vasil import A
 
 def yvan_name():
     print("Yvan")
 
+def D():
+    return "Don Quijote"
+
+def P():
+    return "Princess Dia"
+
+def J():
+    return "Dinh Jin Ping"
+
+def N():
+    return "Doctor Nikki"
+
+def A():
+    return "Dracula"
+
 def T():
-  return "Don Tour"
+    return "Don Tour"
+
 
 def act1_scene4():
     print(f"The Robaddies, featuring {D()}, {P()}, {J()}, {N()}, {A()}, and {T()}, are at luck! Their group also consists of a doctor, {N()}. {N()} is a plastic surgeon that really enjoys working on using plastic from the streets and putting it into people.")

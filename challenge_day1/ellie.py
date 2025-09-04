@@ -1,14 +1,25 @@
-from diogo import D
-from kien import J
-from nicolas import N
-from vasil import A
-from yvan import T
 
 def ellie_name():
     print ("Ellie")
 
+def D():
+    return "Don Quijote"
+
 def P():
-  return "Princess Dia"
+    return "Princess Dia"
+
+def J():
+    return "Dinh Jin Ping"
+
+def N():
+    return "Doctor Nikki"
+
+def A():
+    return "Dracula"
+
+def T():
+    return "Don Tour"
+
     
 def act1_scene6():
     print(f"The members {P()}, {J()}, {N()}, and {A()} look up to the brothers {D()} and {T()} as their leaders. {T()}, {D()}’s younger brother, considers himself as a power ranger. The blue one. He takes inspiration from him. He has everything to resemble him and act like him, amid his heavy drug addiction.")
