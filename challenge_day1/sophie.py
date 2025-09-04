@@ -1,5 +1,5 @@
 def bestname():
-     print("Ellen")
+     print("Sophie")
 
 def act1_22():
     act1 = """Ellen adjusted her glasses and slammed the table so hard that two croissants 
