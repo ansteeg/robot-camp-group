@@ -11,7 +11,7 @@ def get_name():
     return "Madeleine"
 
 
-def act1_madeleine():
+def act1_11():
     """
     Returns Act I of the story - The Meeting Meltdown, from Madeleine.
     
@@ -28,7 +28,7 @@ fallout while Margaret beamed.
 """
 
 
-def act2_madeleine():
+def act2_11():
     """
     Returns Act II of the story - The Meeting Meltdown, from Madeleine.
     
@@ -46,7 +46,7 @@ the agenda, Greg doubled down, the intern typed furiously, and the janitor
 tapped the flickering light."""
 
 
-def act3_madeleine():
+def act3_11():
     """
     Returns Act III of the story - The Meeting Meltdown, from Madeleine.
     
@@ -72,11 +72,11 @@ if __name__ == "__main__":
     name = get_name()
     print(f"My name is: {name}")
     
-    story1 = act1_madeleine()
+    story1 = act1_11()
     print(f"\nAct 1:\n{story1}")
     
-    story2 = act2_madeleine()
+    story2 = act2_11()
     print(f"\nAct 2:\n{story2}")
     
-    story3 = act3_madeleine()
+    story3 = act3_11()
     print(f"\nAct 3:\n{story3}")
