@@ -1,14 +1,14 @@
 import datetime
 
-def station2(date_str):
+def solution_station_2(date_str: str) -> str:
     """
-    Returns the day of the week in Japanese for a given date string (YYYY-MM-DD).
+    Return the weekday in Japanese for a date string 'YYYY-MM-DD'.
+    (例: '2025-09-02' -> '火曜日')
     """
     days_jp = ['月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日', '日曜日']
-    date_obj = datetime.datetime.strptime(date_str, '%Y-%m-%d')
-    # Monday = 0, Sunday = 6. Japanese week starts with Monday.
+    try:
+        date_obj = datetime.datetime.strptime(date_str, '%Y-%m-%d')
+    except (TypeError, ValueError):
+        
+        return "?"
     return days_jp[date_obj.weekday()]
-
-
-date_input = input("Enter a date (YYYY-MM-DD): ")
-print("That day is:", station2(date_input))

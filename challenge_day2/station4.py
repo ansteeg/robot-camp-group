@@ -1,14 +1,15 @@
-# station4.py
+import math
 
-def solution_station_4(n):
-    """
-    Check if a number is prime.
-    Returns True if prime, False otherwise.
-    """
-    if n < 2:
+def solution_station_4(number: int) -> bool:
+    if number < 2:
+        return False
+    if number == 2:
+        return True
+    if number % 2 == 0:
         return False
 
-    for i in range(2, n):
-        if n % i == 0:   # if divisible by i, not prime
+    limit = int(math.sqrt(number)) + 1
+    for i in range(3, limit, 2):
+        if number % i == 0:
             return False
     return True

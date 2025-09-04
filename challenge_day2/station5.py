@@ -1,9 +1,6 @@
-# station2.py
 
-def solution_station_2(name):
-    """
-    Return the Learning Team (LT) number for a given name.
-    """
+def solution_station_5(name):
+
 
     LT1 = ["Daeho", "David", "Kaisa", "Oliver", "Sara", "Dan", "Ivar", "Lotte", 
            "Riya", "Vassil", "Twan", "Ester", "Karolina", "Lena", "Margarita", 
@@ -27,7 +24,7 @@ def solution_station_2(name):
     LT6 = ["Keitaro", "Nohemi", "Norina", "Yifan", "Yinan", "Luo", "Nikola", 
            "Olesya", "Sophie", "Tom"]
 
-    # Put teams into a dictionary
+    
     teams = {
         1: LT1,
         2: LT2,
@@ -37,9 +34,9 @@ def solution_station_2(name):
         6: LT6
     }
 
-    # Check each team
+    
     for number, members in teams.items():
         if name in members:
             return number
 
-    return None  # if not found
+    return None  
