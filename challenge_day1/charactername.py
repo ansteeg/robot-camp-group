@@ -1,17 +1,17 @@
 def D():
-  print "Don Quijote" 
+  print ("Don Quijote")
 
 def P():
-  print "Princess Dia" 
+  print ("Princess Dia")
 
 def J():
-  print "Dinh Jin Ping" 
+  print ("Dinh Jin Ping") 
 
 def N():
-  print "Doctor Nikki" 
+  print ("Doctor Nikki") 
 
 def A():
-  print "Dracula" 
+  print ("Dracula")
 
 def T():
-  print "Don Tour"
+  print ("Don Tour")
