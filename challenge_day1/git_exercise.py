@@ -9,12 +9,12 @@ def group():
     print("Group Name: The Robaddies ")
     print("Team Members:")
 
-    diogo()
-    kien()
-    ellie()
-    yvan()
-    nicolas()
-    vasil()
+    diogo_name()
+    kien_name()
+    ellie_name()
+    yvan_name()
+    nicolas_name()
+    vasil_name()
 
 group()
 
