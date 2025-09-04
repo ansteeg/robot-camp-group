@@ -11,7 +11,7 @@ SummaryMetaTable = {
 
 -- Read data from `data4.txt`
 local lines = {}
-for line in io.lines("data4.txt") do
+for line in io.lines("../testdata/data4.txt") do
     table.insert(lines, line)
 end
 
@@ -35,7 +35,7 @@ for _, line in ipairs(lines) do
     if summary.super > 0 then
         finalSummary = "super"
     elseif summary.good >= 2 then
-        finalSummaries = "good"
+        finalSummary = "good"
     elseif summary.middle >= 3 then
         finalSummary = "middle"
     else
