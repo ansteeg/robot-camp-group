@@ -9,7 +9,7 @@ object Main {
       case (line, 0) => s"$line,Comments"
       case (line, _) =>
         val parts = line.split(",")
-        if (parts.length < 8) line // skip invalid lines
+        if (parts.length < 9) line // skip invalid lines
         else {
           val summary = parts(7)
           val evaluation = parts(8).toFloat
