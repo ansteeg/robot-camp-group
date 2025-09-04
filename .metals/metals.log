@@ -1,0 +1,139 @@
+2025.09.04 10:48:35 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 04, 2025 10:48:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 04, 2025 10:48:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:44 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 04, 2025 10:48:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 04, 2025 10:48:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2025.09.04 10:48:51 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:62)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1519)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:916)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:48:52 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 10:48:52 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:52 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1486)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1118)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:48:55 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:56 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:56 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:57 INFO  Running List(/usr/local/bin/scala, setup-ide, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: sun.misc.Unsafe::objectFieldOffset has been called by scala.runtime.LazyVals$ (file:/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar)
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: Please consider reporting this to the maintainers of class scala.runtime.LazyVals$
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2025.09.04 10:49:05 INFO  Attempting to connect to the build server...
+2025.09.04 10:49:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:49:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 10:49:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 10:49:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:50:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 10:50:05 WARN  Retrying connection to the build server scala
+2025.09.04 10:50:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:50:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 10:50:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 10:50:38 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:62)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1519)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:916)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:50:38 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:50:38 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 10:50:38 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1486)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1118)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:50:38 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:51:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 10:51:05 WARN  Retrying connection to the build server scala
+2025.09.04 10:51:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:51:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 10:51:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 10:51:36 INFO  Shutting down server
+2025.09.04 10:51:36 INFO  shutting down Metals
+2025.09.04 10:51:36 INFO  Exiting server
