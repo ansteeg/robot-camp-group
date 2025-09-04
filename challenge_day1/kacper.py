@@ -1,7 +1,7 @@
 def name():
   return("kacper")
 
-def act1_kacper():
+def act1_44():
   act1 = """ Ladies, gentlemen, and glitter enthusiasts," Greg sneered, "I have come to expose this fraudulent operation." 
   He slammed his binder on the table, sending more crumbs flying. "Bloom magazine is nothing but overpriced doodles 
   wrapped in pretentious adjectives. And I, as a concerned citizen, demand the immediate disbanding of this… paper cult. 
@@ -10,7 +10,7 @@ def act1_kacper():
   
   return act1
 
-def act2_kacper():
+def act2_44():
   act2 = """ Greg, not one to be silenced by facts or ISO certifications, reached into his overcoat like a magician
   revealing his final trick. From its inner pocket, he withdrew a crumpled piece of paper, unfolded it with the dramatic
   tension of a courtroom reveal, and held it aloft. “This!” he cried. “This is the truth!” The paper revealed a stick figure
@@ -21,7 +21,7 @@ def act2_kacper():
 
   return act2
 
-def act3_kacper():
+def act3_44():
     act3 = """ As deadlines loomed, the interns revolted, not with protest signs, but by staging a dramatic puppet
     show in the break room. Using coffee cups and sticky notes, they reenacted the rise and fall of Bloom magazine
     in interpretive slow motion. The puppets all mysteriously exploded in Act III, which everyone agreed was “a bit

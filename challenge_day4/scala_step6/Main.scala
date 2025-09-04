@@ -26,3 +26,4 @@ object Main {
     Files.write(Paths.get("data7.txt"), outputLines.mkString("\n").getBytes)
   }
 }
+
