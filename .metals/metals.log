@@ -1,0 +1,577 @@
+2025.09.04 10:48:35 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 04, 2025 10:48:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 04, 2025 10:48:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:44 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 04, 2025 10:48:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.09.04 10:48:44 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 04, 2025 10:48:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2025.09.04 10:48:51 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:62)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1519)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:916)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:48:52 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 10:48:52 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:52 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1486)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1118)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:48:55 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:56 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:56 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:48:57 INFO  Running List(/usr/local/bin/scala, setup-ide, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: sun.misc.Unsafe::objectFieldOffset has been called by scala.runtime.LazyVals$ (file:/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar)
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: Please consider reporting this to the maintainers of class scala.runtime.LazyVals$
+2025.09.04 10:48:59 INFO  Scala CLI: WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+2025.09.04 10:49:05 INFO  Attempting to connect to the build server...
+2025.09.04 10:49:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:49:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 10:49:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 10:49:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:50:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 10:50:05 WARN  Retrying connection to the build server scala
+2025.09.04 10:50:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:50:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 10:50:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 10:50:38 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:62)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1519)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:916)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:50:38 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:50:38 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 10:50:38 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1486)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1118)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 10:50:38 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 10:51:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 10:51:05 WARN  Retrying connection to the build server scala
+2025.09.04 10:51:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 10:51:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 10:51:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 10:51:36 INFO  Shutting down server
+2025.09.04 10:51:36 INFO  shutting down Metals
+2025.09.04 10:51:36 INFO  Exiting server
+2025.09.04 12:20:02 INFO  Started: Metals version 1.6.2 in folders '/Users/mariapazredondo/Documents/GitHub/pinky-robots' for client Visual Studio Code 1.93.1.
+2025.09.04 12:20:04 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:62)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1519)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:916)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 12:20:04 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:20:04 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 12:20:05 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1486)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1118)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 12:20:04 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:20:05 INFO  Attempting to connect to the build server...
+2025.09.04 12:20:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 12:20:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 12:20:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 12:20:07 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:20:15 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:62)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1519)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:916)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 12:20:15 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 12:20:15 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1486)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1118)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 12:20:15 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:20:20 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:20:21 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:20:23 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:62)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1519)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:916)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 12:20:23 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:20:23 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:84)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:154)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1486)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1118)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:569)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 12:20:23 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:20:23 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:21:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 12:21:05 WARN  Retrying connection to the build server scala
+2025.09.04 12:21:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 12:21:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 12:21:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 12:22:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 12:22:05 WARN  Retrying connection to the build server scala
+2025.09.04 12:22:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 12:22:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 12:22:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 12:23:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 12:23:05 WARN  Retrying connection to the build server scala
+2025.09.04 12:23:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 12:23:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 12:23:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 12:24:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 12:24:05 WARN  Retrying connection to the build server scala
+2025.09.04 12:24:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 12:24:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 12:24:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 12:24:54 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:24:54 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 12:24:55 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:25:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 12:25:05 WARN  Retrying connection to the build server scala
+2025.09.04 12:25:05 INFO  Running BSP server List(/usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.7.2, --repository, file:///usr/local/Cellar/scala/3.7.2/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-launcher-options.json, --envs-file, /Users/mariapazredondo/Documents/GitHub/pinky-robots/.scala-build/ide-envs.json, /Users/mariapazredondo/Documents/GitHub/pinky-robots)
+2025.09.04 12:25:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mariapazredondo/Documents/GitHub/pinky-robots/.metals/bsp.trace.json or /Users/mariapazredondo/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.09.04 12:25:05 INFO  BSP server: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: /usr/local/Cellar/scala/3.7.2/libexec/libexec/scala-cli.jar: cannot execute binary file
+2025.09.04 12:26:05 ERROR Timeout waiting for 'build/initialize' response
+2025.09.04 12:26:05 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:787)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:658)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2025.09.04 12:26:05 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:26:05 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 12:26:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:26:07 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:31:17 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:32:01 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:06 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 12:34:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:21 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:22 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:34:22 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala
+2025.09.04 12:34:22 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:37:45 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:43:58 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:43:59 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:43:59 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:44:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:44:57 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:45:52 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:45:53 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:46:59 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:46:59 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:47:00 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:47:00 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:47:00 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:47:47 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:47:47 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:47:48 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:47:49 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:27 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:29 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:29 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:30 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:30 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:32 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:32 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:48:32 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:34 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:34 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:34 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:48:34 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:48:34 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:12 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:12 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:14 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:15 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:15 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:15 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:32 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:49:58 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:38 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:38 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:38 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:39 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:51:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:40 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:51:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:40 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:40 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:40 INFO  time: code lens generation in 1.24s
+2025.09.04 12:51:41 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:41 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:51:41 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:54:45 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:54:58 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:54:58 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:54:58 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:54:59 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:54:59 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:00 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:00 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:00 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:01 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:01 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:01 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:01 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:02 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:02 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:03 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:03 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:03 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:03 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:03 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:03 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:04 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:05 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:04 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:05 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:04 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:05 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:04 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:07 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:08 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:08 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:08 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:08 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:08 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:09 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:10 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:10 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:10 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:10 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:10 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:10 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:11 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:10 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:11 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:11 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:14 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:14 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:14 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:14 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:13 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:14 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:14 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:55:14 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:15 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:55:15 INFO  time: code lens generation in 1.32s
+2025.09.04 12:55:15 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:16 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:17 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:17 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:18 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:18 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:58:18 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:18 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:35 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:35 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:37 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:58:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:40 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:58:46 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:59:11 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:59:11 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:59:11 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:59:11 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:59:25 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 12:59:25 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:59:25 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:59:25 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 12:59:25 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:00:26 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:00:27 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:36 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:36 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:37 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:02:37 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:39 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:02:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:02:39 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:36 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:05:36 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:36 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:36 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:36 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:45 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:45 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:45 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:05:45 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:45 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:50 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:50 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:50 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:50 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:05:50 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:05:51 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:08:17 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:08:17 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:08:17 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 04, 2025 1:08:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 398
+2025.09.04 13:09:04 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:09:04 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:09:05 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:11:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:11:06 WARN  no build target for: /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala
+2025.09.04 13:11:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:11:06 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:11:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:11:09 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:11:16 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:16 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:16 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:18 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:18 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:20 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:20 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:23 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:23 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.04 13:15:24 INFO  no build target found for /Users/mariapazredondo/Documents/GitHub/pinky-robots/challenge_day4/scala_step6/Main.scala. Using presentation compiler with project's scala-library version: 3.3.6
