@@ -1,7 +1,7 @@
 using DataFrames, CSV, Statistics, DelimitedFiles
 
 # Read the CSV file into a DataFrame
-people_df = CSV.File("fulldata/data3.csv") |> DataFrame
+people_df = CSV.File("data3.csv") |> DataFrame
 
 # Function to classify a score based on quartiles
 function classify_score(score, quartiles)
@@ -37,7 +37,10 @@ for col_name in names(people_df)[2:end]
 end
 
 # Save the modified DataFrame back to a new CSV file
-CSV.write("fulldata/data4.csv", people_df)
+CSV.write("data4.csv", people_df)
 
-# Save the modified DataFrame back to a new TXT file 
-writedlm("fulldata/data4.txt", Matrix(people_df), ',')
+# Save the modified DataFrame back to a new TXT file (with header)
+header = string.(names(people_df))             
+data = Matrix(people_df)                       
+all_data = vcat(reshape(header, 1, :), data)  
+writedlm("data4.txt", all_data, ',')
