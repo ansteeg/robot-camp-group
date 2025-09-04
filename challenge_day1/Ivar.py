@@ -13,9 +13,9 @@ def act2_ivar():
     act2 = """
     Meanwhile, Harold clutched his meticulously organized spreadsheets as if
     they were sacred texts. His left eye twitched. “Sir,” he began, adjusting his glasses with righteous fury,
-    “I’ll have you know our margins are ISO certified!” The word “ISO” echoed like a war cry through the 
+    “I'll have you know our margins are ISO certified!” The word “ISO” echoed like a war cry through the 
     conference room. His glasses began to fog, equal parts rage and leftover coffee steam. He rose halfway 
-    out of his chair before realizing he wasn’t sure if his belt would hold under pressure, and promptly sat back down with dignity barely intact.
+    out of his chair before realizing he wasn't sure if his belt would hold under pressure, and promptly sat back down with dignity barely intact.
     """
     return act2
 

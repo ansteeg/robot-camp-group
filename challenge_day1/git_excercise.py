@@ -1,3 +1,17 @@
+from Ivar import call_name
+from Madeleine import get_name
+from Chris import x
+from Sophie import bestname
+from Kacper import name
+from Todd import tname
+
+print(f"This is Team zin er in. We are:")
+get_name()
+bestname()
+call_name()
+name()
+x()
+tname()
 from Ivar import call_name, act1_ivar, act2_ivar, act3_ivar
 from madeleine import get_teamname, get_name, act1_madeleine, act2_madeleine, act3_madeleine
 from Chris import call_name1, act1_chris, act2_chris, act3_chris
