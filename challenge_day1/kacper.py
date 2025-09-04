@@ -28,7 +28,7 @@ def act2_44():
 def act3_44():
     act3 = """ As deadlines loomed, Harold refused to panic. Instead, 
     he staged a one-man presentation in the break room, using coffee cups 
-    as bar charts and sticky notes as pie graphs. His reenactment of Bloom’s 
+    as bar charts and sticky notes as pie graphs. His reenactment of Blooms 
     financial situation was both harrowing and oddly poetic. In the grand finale, 
     a coffee cup toppled over, spilling cold espresso across the table. 
     Harold sighed, adjusted his glasses, and muttered: “Budget theater 
