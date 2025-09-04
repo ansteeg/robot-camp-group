@@ -22,14 +22,6 @@ for (col_name in names(people_df)) {
   }
 }
 
-#After checking the test-data2.json, the code should help to remove all people with
-#less than 5 different skills. Excluding "names" column, number of skills(column length)
-#should be counted and keep only people with 5 more skills.
-people_df$count_skill <- apply(people_df, 1, function(x) sum(!is.na(x)) -1)
-people_df <- subset(people_df, count_skill >=5)
-
-
-
 # Put the modified data frame back into the JSON structure
 json_data$people <- people_df
 
