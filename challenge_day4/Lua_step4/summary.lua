@@ -3,7 +3,7 @@ SummaryMetaTable = {
     __add = function (left, right)
         local newSummary = {super=0, good=0, middle=0, low=0}
         for k, v in pairs(left) do
-            newSummary[k] = v + right[k]
+            newSummary[k] = (v or 0) + ((right and right[k]) or 0)
         end
         return newSummary
     end
@@ -23,32 +23,42 @@ local people = {}
 
 -- Process each line and collect data
 for _, line in ipairs(lines) do
-    local name, tech, soft, bus, creative, academic = line:match("([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^,]+)")
-    local summary = {super=0, good=0, middle=0, low=0}
-    setmetatable(summary, SummaryMetaTable)
+    local name, tech, soft, bus, creative, academic =
+        line:match("([^,]*),([^,]*),([^,]*),([^,]*),([^,]*),([^,]*)")
 
-    for _, skill in ipairs({tech, soft, bus, creative, academic}) do
-        summary[skill] = (summary[skill] or 0) + 1
+    -- guard: only process lines that matched 6 fields
+    if name then
+        local summary = {super=0, good=0, middle=0, low=0}
+        setmetatable(summary, SummaryMetaTable)
+
+        -- skip empty cells so we don't create summary[""]
+        for _, skill in ipairs({tech, soft, bus, creative, academic}) do
+            if skill ~= "" then
+                summary[skill] = (summary[skill] or 0) + 1
+            end
+        end
+
+        local finalSummary
+        if summary.super > 0 then
+            finalSummary = "super"
+        elseif summary.good >= 2 then
+            finalSummary = "good"
+        elseif summary.middle >= 3 then
+            finalSummary = "middle"
+        else
+            finalSummary = "low"
+        end
+
+        table.insert(people, {name, tech, soft, bus, creative, academic, finalSummary})
     end
-
-    local finalSummary
-    if summary.super > 0 then
-        finalSummary = "super"
-    elseif summary.good >= 2 then
-        finalSummaries = "good"
-    elseif summary.middle >= 3 then
-        finalSummary = "middle"
-    else
-        finalSummary = "low"
-    end
-
-    table.insert(people, {name, tech, soft, bus, creative, academic, finalSummary})
 end
 
 -- Write data to `data5.txt`
-local out = io.open("data5.txt", "w")
+local out, err = io.open("data5.txt", "w")
+assert(out, err)
 out:write("Name,Technical Skills,Soft Skills,Business Skills,Creative Skills,Academic Skills,Summary\n")
 for _, entry in ipairs(people) do
     out:write(table.concat(entry, ',') .. "\n")
 end
 out:close()
+
