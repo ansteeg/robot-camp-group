@@ -1,0 +1,11 @@
+Name,Technical Skills,Soft Skills,Business Skills,Creative Skills,Academic Skills
+Ken,10.0,9.0,8.0,1.0,10.0
+Uma,4.0,7.1429,1.0,8.0,9.0
+Yara,4.0,7.1429,1.0,3.0,9.0
+Karen,7.0,7.1429,3.0,4.0,8.875
+Dave,9.0,10.0,4.5,7.0,7.0
+Kristen,7.25,10.0,8.0,4.5714,9.0
+Paula,5.0,5.0,2.0,1.0,8.0
+Ursula,10.0,10.0,6.0,4.5714,8.875
+Ivy,7.25,5.0,7.0,8.0,9.0
+Roger,9.0,1.0,4.5,4.5714,10.0
